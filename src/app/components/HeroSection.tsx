@@ -14,7 +14,7 @@ export function HeroSection() {
               Menggabungkan pengobatan konvensional modern dengan terapi timur tradisional untuk kesehatan optimal Anda. Kami hadir dengan pendekatan holistik yang terbukti efektif.
             </p>
             <a
-              href="https://wa.me/6281293801745"
+              href="https://wa.me/6287777682997"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-accent text-white px-8 py-4 rounded-xl hover:bg-accent/90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
