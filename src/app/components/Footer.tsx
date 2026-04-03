@@ -74,12 +74,26 @@ export function Footer() {
             <div className="flex items-start gap-3 text-white/70">
               <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
               <p>
-                Jl. Ganesha Blok UF No. 15<br />
-                Pamulang, Tangerang Selatan<br />
-                Banten, Indonesia
+                Jl. Ganesha Raya, Pd. Benda<br />
+                Kec. Pamulang, Kota Tangerang Selatan<br />
+                Banten 15417
               </p>
             </div>
           </div>
+        </div>
+
+        {/* Google Maps Embed */}
+        <div className="mb-8 rounded-2xl overflow-hidden shadow-lg border border-white/10">
+          <iframe
+            title="Lokasi Apotek Bergas Waras Pamulang"
+            src="https://maps.google.com/maps?q=Apotek+Bergas+Waras+Pamulang,+Jl.+Ganesha+Raya,+Pd.+Benda,+Kec.+Pamulang,+Kota+Tangerang+Selatan,+Banten+15417&output=embed"
+            width="100%"
+            height="280"
+            style={{ border: 0, display: 'block' }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
         </div>
 
         {/* Bottom Bar */}
