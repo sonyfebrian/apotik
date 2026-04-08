@@ -7,9 +7,12 @@ export function HeroSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight text-foreground">
-              Solusi Sehat Alami & Medis: Pulihkan Tubuh dari Penyakit Degeneratif
-            </h1>
+      <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight text-foreground">
+        WEB Griya Holistic Bergas Waras
+      </h1>
+      <h2 className="text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground mt-2">
+        Solusi Sehat Alami & Medis: Pulihkan Tubuh dari Penyakit Degeneratif
+      </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Menggabungkan pengobatan konvensional modern dengan terapi timur tradisional untuk kesehatan optimal Anda. Kami hadir dengan pendekatan holistik yang terbukti efektif.
             </p>

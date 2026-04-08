@@ -25,6 +25,12 @@ export function Header() {
           <a href="#tentang" className="text-foreground hover:text-primary transition-colors">
             Tentang
           </a>
+          <a href="#galeri" className="text-foreground hover:text-primary transition-colors">
+            Galeri
+          </a>
+           <a href="#kontak" className="text-foreground hover:text-primary transition-colors">
+            Kontak Kami
+          </a>
         </nav>
 
         <a
