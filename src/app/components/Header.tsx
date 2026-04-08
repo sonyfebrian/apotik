@@ -23,7 +23,7 @@ export function Header() {
             Produk
           </a>
           <a href="#tentang" className="text-foreground hover:text-primary transition-colors">
-            Tentang
+            Tentang Kami
           </a>
           <a href="#galeri" className="text-foreground hover:text-primary transition-colors">
             Galeri
