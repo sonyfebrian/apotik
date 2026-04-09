@@ -74,7 +74,7 @@ export function Footer() {
             <div className="flex items-start gap-3 text-white/70">
               <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
               <p>
-                Jl. Ganesha Raya, Pd. Benda<br />
+                Jl.Ganesha Blok UF No.15 Pondok Benda<br />
                 Kec. Pamulang, Kota Tangerang Selatan<br />
                 Banten 15417
               </p>

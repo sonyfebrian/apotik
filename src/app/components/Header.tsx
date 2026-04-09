@@ -69,7 +69,7 @@ export function Header() {
             <button
               id="mobile-menu-toggle"
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="md:hidden relative z-60 flex items-center justify-center w-11 h-11 rounded-xl bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+              className="md:hidden relative z-60 flex items-center gap-2 px-4 py-2.5 rounded-xl bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
               aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={mobileOpen}
             >
@@ -81,7 +81,7 @@ export function Header() {
                 }}
               >
                 <Menu
-                  className="w-6 h-6 col-start-1 row-start-1 transition-all duration-300"
+                  className="w-5 h-5 col-start-1 row-start-1 transition-all duration-300"
                   style={{
                     gridArea: 'icon',
                     opacity: mobileOpen ? 0 : 1,
@@ -89,13 +89,16 @@ export function Header() {
                   }}
                 />
                 <X
-                  className="w-6 h-6 col-start-1 row-start-1 transition-all duration-300"
+                  className="w-5 h-5 col-start-1 row-start-1 transition-all duration-300"
                   style={{
                     gridArea: 'icon',
                     opacity: mobileOpen ? 1 : 0,
                     transform: mobileOpen ? 'rotate(0) scale(1)' : 'rotate(-90deg) scale(0.5)',
                   }}
                 />
+              </span>
+              <span className="text-sm font-semibold">
+                {mobileOpen ? 'Tutup' : 'Menu'}
               </span>
             </button>
           </div>
