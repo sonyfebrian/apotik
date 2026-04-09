@@ -1,0 +1,21 @@
+{
+  "name": "Griya Holistic Bergas Waras",
+  "short_name": "Bergas Waras",
+  "description": "Klinik dan apotek holistik terpadu di Pamulang. Terapi akupuntur, bekam, herbal, dan pengobatan modern untuk kesehatan optimal Anda.",
+  "start_url": "/apotik/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6b8378",
+  "icons": [
+    {
+      "src": "/apotik/assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/apotik/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

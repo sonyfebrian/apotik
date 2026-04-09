@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sonyfebrian.github.io/apotik/sitemap.xml
