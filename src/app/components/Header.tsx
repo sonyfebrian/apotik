@@ -4,6 +4,7 @@ import { MessageCircle, Menu, X } from 'lucide-react';
 const navLinks = [
   { href: '#home', label: 'Home' },
   { href: '#layanan', label: 'Layanan' },
+  { href: '#promo', label: 'Promo' },
   { href: '#produk', label: 'Produk' },
   { href: '#tentang', label: 'Tentang Kami' },
   { href: '#galeri', label: 'Galeri' },

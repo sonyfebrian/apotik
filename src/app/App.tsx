@@ -6,6 +6,7 @@ import { AboutSection } from './components/AboutSection';
 import { ContactSection } from './components/ContactSection';
 import { GallerySection } from './components/GallerySection';
 import { FocusSection } from './components/FocusSection';
+import { PromoSection } from './components/PromoSection';
 import { ServiceProductGrid } from './components/ServiceProductGrid';
 import { SocialProof } from './components/SocialProof';
 import { Footer } from './components/Footer';
@@ -18,6 +19,7 @@ export default function App() {
         <HeroSection />
         <ValueProposition />
         <LayananSection />
+        <PromoSection />
         <AboutSection />
         <GallerySection />
         <ContactSection />

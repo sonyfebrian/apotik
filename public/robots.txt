@@ -1,4 +1,20 @@
+# Robots.txt for Griya Holistic Bergas Waras
+# https://sonyfebrian.github.io/apotik/
+
 User-agent: *
 Allow: /
+Disallow: /node_modules/
+Disallow: /src/
 
+# Allow all major search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Sitemap location
 Sitemap: https://sonyfebrian.github.io/apotik/sitemap.xml

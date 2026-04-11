@@ -1,4 +1,4 @@
-import { MessageCircle, MapPin, Clock, Phone, Pill, Leaf } from 'lucide-react';
+import { MessageCircle, MapPin, Clock, Phone, Pill, Leaf, Mail } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -55,6 +55,13 @@ export function Footer() {
               >
                 <Phone className="w-5 h-5 flex-shrink-0 mt-0.5" />
                 <span>0877 7768 2997</span>
+              </a>
+              <a
+                href="mailto:griyaholisticbw@gmail.com"
+                className="flex items-start gap-3 text-white/70 hover:text-white transition-colors"
+              >
+                <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                <span>griyaholisticbw@gmail.com</span>
               </a>
               <div className="flex items-start gap-3 text-white/70">
                 <Clock className="w-5 h-5 flex-shrink-0 mt-0.5" />

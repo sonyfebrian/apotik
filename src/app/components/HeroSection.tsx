@@ -8,7 +8,7 @@ export function HeroSection() {
           {/* Left Content */}
           <div className="space-y-6">
       <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight text-foreground">
-        WEB Griya Holistic Bergas Waras
+        Griya Holistic Bergas Waras
       </h1>
       <h2 className="text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground mt-2">
         Solusi Sehat Alami & Medis: Pulihkan Tubuh dari Penyakit Degeneratif
