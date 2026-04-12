@@ -24,25 +24,11 @@ const therapies = [
     iconBg: 'bg-purple-100',
   },
   {
-    icon: Droplet,
-    title: 'Bekam',
-    description: 'Terapi kuno yang terbukti efektif untuk detoksifikasi, melancarkan peredaran darah, dan meningkatkan sistem imun tubuh.',
-    color: 'bg-red-50 border-red-200 text-red-600',
-    iconBg: 'bg-red-100',
-  },
-  {
     icon: Stethoscope,
     title: 'Fasdu',
     description: 'Terapi pengeluaran darah kotor (phlebotomy) secara medis untuk membantu tubuh meregenerasi sel darah baru yang lebih sehat.',
     color: 'bg-green-50 border-green-200 text-green-600',
     iconBg: 'bg-green-100',
-  },
-  {
-    icon: UserCheck,
-    title: 'Konsultasi Dokter',
-    description: 'Konsultasi kesehatan langsung dengan dokter berpengalaman untuk menentukan terapi yang tepat sesuai kondisi kesehatan Anda.',
-    color: 'bg-teal-50 border-teal-200 text-teal-600',
-    iconBg: 'bg-teal-100',
   },
 ];
 
