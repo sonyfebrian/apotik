@@ -29,9 +29,10 @@ export function PromoSection() {
                 <Star className="w-3.5 h-3.5" />
                 <span>Paket Lengkap</span>
               </div>
-              <h3 className="text-2xl font-bold mb-2">AKUPUNTUR + Tera P90 &amp; Itera</h3>
+              <h3 className="text-2xl font-bold mb-2">AKUPUNTUR Plus Tera P90 &amp; Itera</h3>
               <div className="flex items-baseline gap-2 mb-4">
                 <span className="text-4xl font-extrabold">Rp200.000</span>
+                <span className="text-xl text-white/60 line-through">Rp300.000</span>
               </div>
               <p className="text-white/80 text-sm leading-relaxed">
                 Dapatkan 3 terapi sekaligus dalam satu kunjungan dengan harga spesial paket lengkap.
@@ -53,7 +54,7 @@ export function PromoSection() {
                 <span className="text-4xl font-extrabold">Rp1.250.000</span>
               </div>
               <p className="text-white/80 text-sm leading-relaxed">
-                2× Terapi Lengkap + Suplemen untuk hasil maksimal dalam waktu 7 hari perawatan.
+                2× Terapi Paket Lengkap + Suplemen untuk hasil maksimal dalam waktu 7 hari perawatan.
               </p>
             </div>
           </div>
@@ -66,14 +67,12 @@ export function PromoSection() {
             <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mb-5">
               <Heart className="w-6 h-6 text-emerald-600" />
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-6">Harga Terapi</h3>
+            <h3 className="text-xl font-bold text-foreground mb-6">Harga Terapi Regular</h3>
             <ul className="space-y-4">
               {[
-                { name: 'Akupuntur', price: 'Rp200.000' },
-                { name: 'Tera P90 & Itera', price: 'Rp100.000' },
-                { name: 'Bekam', price: 'Rp100.000' },
-                { name: 'Fasdu', price: 'Rp100.000' },
-                { name: 'Konsultasi & Periksa', price: 'Rp100.000' },
+                { name: 'Akupuntur 1× kedatangan', price: 'Rp250.000' },
+                { name: 'Fisioterapi alat canggih (Tera P90 & Itera)', price: 'Rp100.000' },
+                { name: 'Konsultasi dan periksa', price: 'Rp100.000' },
               ].map((item, i) => (
                 <li key={i} className="flex items-center justify-between pb-3 border-b border-gray-100 last:border-0 last:pb-0">
                   <span className="text-muted-foreground text-sm">{item.name}</span>
@@ -91,19 +90,12 @@ export function PromoSection() {
             <div className="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center mb-5">
               <Star className="w-6 h-6 text-secondary" />
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-6">Paket Akupuntur Regular</h3>
+            <h3 className="text-xl font-bold text-foreground mb-6">Paket Akupuntur</h3>
             <ul className="space-y-4">
-              <li className="pb-4 border-b border-gray-100">
-                <div className="flex items-center justify-between mb-1">
-                  <span className="text-sm text-muted-foreground">Akupuntur Medis</span>
-                  <span className="font-bold text-foreground text-sm">Rp1.000.000</span>
-                </div>
-                <span className="text-xs text-muted-foreground/70">4× kedatangan</span>
-              </li>
               <li>
-                <div className="flex items-center justify-between mb-1">
-                  <span className="text-sm text-muted-foreground">Akupuntur Kecantikan</span>
-                  <span className="font-bold text-foreground text-sm">Rp1.200.000</span>
+                <div className="flex justify-between items-start gap-4 mb-1">
+                  <span className="text-sm text-muted-foreground leading-snug">Paket Akupuntur Medis Plus Tera P90 &amp; Itera (Paket Lengkap)</span>
+                  <span className="font-bold text-foreground text-sm whitespace-nowrap mt-0.5">Rp1.000.000</span>
                 </div>
                 <span className="text-xs text-muted-foreground/70">4× kedatangan</span>
               </li>
@@ -119,16 +111,16 @@ export function PromoSection() {
             <p className="text-xs text-muted-foreground/70 mb-6">Area Pamulang dan sekitarnya</p>
             <ul className="space-y-4">
               <li className="pb-4 border-b border-gray-100">
-                <div className="flex items-center justify-between mb-1">
-                  <span className="text-sm text-muted-foreground">Akupuntur Medis 1×</span>
-                  <span className="font-bold text-foreground text-sm">Rp350.000</span>
+                <div className="flex justify-between items-start gap-4 mb-1">
+                  <span className="text-sm text-muted-foreground leading-snug">Paket Akupuntur Medis Plus Tera P90 &amp; Itera (Paket Lengkap)</span>
+                  <span className="font-bold text-foreground text-sm whitespace-nowrap mt-0.5">Rp350.000</span>
                 </div>
                 <span className="text-xs text-muted-foreground/70">1× kunjungan</span>
               </li>
               <li>
-                <div className="flex items-center justify-between mb-1">
-                  <span className="text-sm text-muted-foreground">Akupuntur Medis 4×</span>
-                  <span className="font-bold text-foreground text-sm">Rp1.200.000</span>
+                <div className="flex justify-between items-start gap-4 mb-1">
+                  <span className="text-sm text-muted-foreground leading-snug">Paket Akupuntur Medis Plus Tera P90 &amp; Itera (Paket Lengkap)</span>
+                  <span className="font-bold text-foreground text-sm whitespace-nowrap mt-0.5">Rp1.300.000</span>
                 </div>
                 <span className="text-xs text-muted-foreground/70">4× kedatangan</span>
               </li>

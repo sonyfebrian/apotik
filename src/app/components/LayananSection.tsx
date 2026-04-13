@@ -23,13 +23,6 @@ const therapies = [
     color: 'bg-purple-50 border-purple-200 text-purple-600',
     iconBg: 'bg-purple-100',
   },
-  {
-    icon: Stethoscope,
-    title: 'Fasdu',
-    description: 'Terapi pengeluaran darah kotor (phlebotomy) secara medis untuk membantu tubuh meregenerasi sel darah baru yang lebih sehat.',
-    color: 'bg-green-50 border-green-200 text-green-600',
-    iconBg: 'bg-green-100',
-  },
 ];
 
 export function LayananSection() {

@@ -76,7 +76,7 @@ export function AboutSection() {
                   <strong className="text-foreground">Griya Holistic Bergas Waras</strong> adalah tempat terapi holistik terpadu yang membantu Anda mendapatkan perawatan kesehatan secara alami dengan menggabungkan pengobatan konvensional modern dengan terapi timur tradisional.
                 </p>
                 <p>
-                  Kami menyediakan berbagai layanan terapi seperti <strong className="text-secondary">Akupuntur, Tera P90, Itera, fasdu</strong>. Setiap tindakan terapi dilakukan dengan peralatan higienis dan steril sehingga keamanan dan kebersihan tetap terjaga.
+                  Kami menyediakan berbagai layanan terapi seperti <strong className="text-secondary">Akupuntur, Tera P90, Itera</strong>. Setiap tindakan terapi dilakukan dengan peralatan higienis dan steril sehingga keamanan dan kebersihan tetap terjaga.
                 </p>
                 <p>
                   Didukung tenaga yang handal dan profesional serta ruang terapi yang nyaman dan ber-AC, kami berkomitmen memberikan layanan kesehatan yang profesional, aman, dan terpercaya bagi Anda.
